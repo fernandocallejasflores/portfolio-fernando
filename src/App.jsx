@@ -160,19 +160,35 @@ function App() {
 
   <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
 
-    <p className="mb-3">
-      📧 Correo: fercallejas@gmail.com
+    <p className="mb-4">
+      📧 Correo: fercallejas28@gmail.com
     </p>
 
-    <p className="mb-3">
-      💼 LinkedIn: MUY PRONTO
-    </p>
+    <p className="mb-4">
+  💼 LinkedIn:
+  <a
+    href="https://www.linkedin.com/in/fernando-callejas-8318271ab/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-400 hover:text-blue-300 ml-2"
+  >
+    Ver perfil
+  </a>
+</p>
 
-    <p>
-      💻 GitHub: Próximamente
-    </p>
+<p>
+  💻 GitHub:
+  <a
+    href="https://github.com/fernandocallejasflores"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-400 hover:text-blue-300 ml-2"
+  >
+    Ver repositorio
+  </a>
+</p>
 
-  </div>
+    </div>
 </section> 
   <section id="proyectos" className="max-w-5xl mx-auto px-6 py-12">
   <h2 className="text-3xl font-bold mb-6">PROYECTOS</h2>
