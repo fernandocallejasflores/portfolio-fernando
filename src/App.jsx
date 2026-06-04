@@ -65,7 +65,7 @@ function App() {
       </nav>
 
       <section className="max-w-5xl mx-auto px-6 py-20">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 hover:text-blue-400 transition duration-300">
           Fernando Callejas Flores
         </h1>
 
@@ -114,7 +114,7 @@ function App() {
           {skills.map((skill, index) => (
             <div
               key={index}
-            className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:scale-105 transition"
+            className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:scale-105 hover:border-blue-500 transition duration-300"
             >
               <h3 className="font-bold text-lg mb-2">
                {skill.titulo}
@@ -170,21 +170,21 @@ function App() {
     href="https://www.linkedin.com/in/fernando-callejas-8318271ab/"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-blue-400 hover:text-blue-300 ml-2"
+    className="text-blue-400 hover:text-white ml-2 transition duration-300"
   >
-    Ver perfil
+    Mi LinkedIn
   </a>
 </p>
 
 <p>
-  💻 GitHub:
+  💻 GitHub: 
   <a
     href="https://github.com/fernandocallejasflores"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-blue-400 hover:text-blue-300 ml-2"
+    className="text-blue-400 hover:text-white ml-2 transition duration-300"
   >
-    Ver repositorio
+    Mi GitHub
   </a>
 </p>
 
@@ -198,7 +198,7 @@ function App() {
     {proyectos.map((proyecto, index) => (
       <div
         key={index}
-        className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:scale-105 transition"
+        className="bg-gray-900 p-6 rounded-xl border border-gray-800 hover:border-blue-500 hover:scale-105 transition duration-300"
       >
         <h3 className="font-bold text-lg mb-2">
           {proyecto.titulo}
